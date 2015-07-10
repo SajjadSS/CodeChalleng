@@ -49,7 +49,6 @@ for i in range(2, len(tw)):
         i_H += 1
         i_L -= 1
 
-    print(tw_H[i_H])
     if i_L == i_H:
         tw_md[i] = (tw_L_max+tw_H_min)/2.0
     elif i_L > i_H:
